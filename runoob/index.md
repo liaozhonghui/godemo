@@ -50,7 +50,7 @@ byte: 类似uint8, rune: 类似int32, int, uintptr
 go语言变量
 变量定义`var identifier type`
 声明多个变量：`var identifier1, identifier2 type`
-如果没有初始化， 则默认为类型的零值。
+如果没有初始化， 则默认为类型的零值, 数字类型为0, 字符串类型为"", 布尔类型为false, 其他类型为nil.
 _用于被抛弃值
 变量交换小技巧 `a, b = b, a`
 使用`:=` 符号用来声明一个变量并进行赋值.
@@ -68,3 +68,4 @@ func numbers() (int, int, string) {
     reutrn a, b, c
 }
 ```
+
