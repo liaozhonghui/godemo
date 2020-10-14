@@ -6,5 +6,11 @@ import (
 
 // Hello Hello, World程序
 func Hello() {
-	fmt.Println("Hello, World!")
+	const (
+		a = iota
+		b = "ha"
+		c
+		d
+	)
+	fmt.Println("Hello, World!", a, b, c, d)
 }

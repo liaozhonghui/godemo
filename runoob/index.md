@@ -55,6 +55,9 @@ _用于被抛弃值
 变量交换小技巧 `a, b = b, a`
 使用`:=` 符号用来声明一个变量并进行赋值.
 
+小知识：对于值类型的数据，可以通过哟&i来进行取地址，值类型变量的值存储在栈中，内存地址会根据机器的不同而有所不同，因为每台机器可能有不容的存储器布局，并且位置分配可以能不同.
+
+
 variable.go
 ```go
 package runoob
@@ -69,3 +72,33 @@ func numbers() (int, int, string) {
 }
 ```
 
+go语言常量
+常量定义`const identifier [type] = value`
+常量可以使用len(), cap(), unsafe.Sizeof()函数计算表达式的值。
+iota特殊常量，
+iota在const关键词出现的时候被重置为0(const 内部的第一行代码之前)，const每新增一行代码声明可以使iota计数增加一次 
+
+iota.go
+```go
+package runoob
+import "fmt"
+func main() {
+    const (
+        a = iota // 0
+        b // 1
+        c // 2
+        d = "ha" // 独立值，iota += 1
+        e // "ha" iota += 1
+        f = 100 // 独立值 iota += 1
+        g // 100 iota += 1
+        h = iota // 7
+        i // 8
+    )
+    fmt.Println(a, b, c, d, e, f, g, h, i)
+}
+```
+
+go 语言运算符号
+&& || !
+位运算符： & | ^(异或) << >>
+指针符号： &返回变量存储地址， *指针变量
