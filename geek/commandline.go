@@ -1,4 +1,4 @@
-package geek
+package main
 
 import (
 	"flag"

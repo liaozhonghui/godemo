@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aaa8a19a-78f3-401e-85c0-702afd4a0549" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/.idea/godemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geek/libin/internel/internel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geek/commandline.go" beforeDir="false" afterPath="$PROJECT_DIR$/geek/commandline.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geek/commandline_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/geek/commandline_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geek/demo3.go" beforeDir="false" afterPath="$PROJECT_DIR$/geek/demo3.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.15.2/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1j2YqzUkl3qMcayBCacWu5IhIQf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/geek" />
+      <recent name="$PROJECT_DIR$/geek/lib" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="512" y="398" key="#GOROOT" timestamp="1603003862005">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="512" y="398" key="#GOROOT/0.23.1440.877@0.23.1440.877" timestamp="1603003862005" />
+    <state x="320" y="118" key="#Plugins" timestamp="1603792671844">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="98" key="#Plugins/0.0.1440.900@0.0.1440.900" timestamp="1603006283724" />
+    <state x="320" y="118" key="#Plugins/0.23.1440.877@0.23.1440.877" timestamp="1603792671844" />
+    <state x="368" y="38" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1603010086954">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="368" y="38" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1440.900@0.0.1440.900" timestamp="1603010086954" />
+    <state x="393" y="235" key="EditFileWatcherDialog" timestamp="1603010157618">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="393" y="235" key="EditFileWatcherDialog/0.0.1440.900@0.0.1440.900" timestamp="1603010157618" />
+    <state x="221" y="110" key="SettingsEditor" timestamp="1603762530755">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1603026932007" />
+    <state x="221" y="110" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1603762530755" />
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1603025982702">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1603025982702" />
+    <state x="385" y="223" width="670" height="676" key="search.everywhere.popup" timestamp="1603792661689">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="463" y="150" width="670" height="694" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1603025991911" />
+    <state x="385" y="223" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1603792661689" />
+  </component>
+</project>

@@ -3,18 +3,25 @@ package main
 import (
 	"flag"
 	"fmt"
+	"os"
 )
 
 var name string
+var cmdLine = flag.NewFlagSet("name", flag.ExitOnError)
 
 func init() {
-	flag.StringVar(&name, "name", "someone", "this is user name.")
+	cmdLine.StringVar(&name, "name", "someone", "this is user name.")
 }
 func main() {
-	flag.Usage = func() {
-		fmt.Fprintf(os.Stderr, "Usage of %s", "question")
-		fmt.PrintDefaults()
+	// flag.Usage = func() {
+	// 	fmt.Fprintf(os.Stderr, "Usage of %s\n", "question")
+	// 	flag.PrintDefaults()
+	// }
+	cmdLine.Usage = func() {
+		fmt.Fprintf(os.Stderr, "Usage of %s\n", "name")
+		flag.PrintDefaults()
 	}
-	flag.Parse()
+
+	cmdLine.Parse(os.Args[1:])
 	fmt.Printf("get parameter name: %s!\n", name)
 }
