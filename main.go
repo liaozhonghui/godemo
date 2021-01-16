@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bytes"
 	"flag"
 	"fmt"
 	"os"
@@ -24,4 +25,11 @@ func main() {
 	// }
 	flag.Parse()
 	fmt.Printf("Hello, %s!\n", name)
+	temp()
+}
+func temp() {
+	fmt.Print("hello.")
+	path := []byte("AAAA/BBBBB")
+	sep := bytes.IndexByte(path, '/')
+	fmt.Printf("path %s, sep: %d", path, sep)
 }
